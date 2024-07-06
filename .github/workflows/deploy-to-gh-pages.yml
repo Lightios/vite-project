@@ -1,8 +1,8 @@
-ame: Build and Deploy
+name: Build and Deploy Template
 on:
   push:
     branches:
-      - master
+      - gh-pages
 permissions:
   contents: write
 jobs:
