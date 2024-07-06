@@ -13,10 +13,6 @@ export const description =
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/' },
 	{
-		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
-	},
-	{
 		platform: Platform.Twitter,
 		link: 'https://twitter.com/'
 	},
