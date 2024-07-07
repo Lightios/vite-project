@@ -3,28 +3,28 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
-		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
-		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
-		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+	  degree: 'Technician of Information Technology',
+	  description: 'A comprehensive program covering various aspects of computer science and information technology, including programming, networking, and hardware maintenance.',
+	  location: 'Poland',
+	  logo: Assets.ZSZ, // Replace with a specific logo if available
+	  name: 'Technical High School of Computer Science',
+	  organization: 'Zespół Szkół Zawodowych w Przeworsku',
+	  period: { from: new Date(2016, 8, 1), to: new Date(2021, 5, 1) },
+	  shortDescription: 'Specialized in Information Technology',
+	  slug: 'technical-high-school-computer-science',
+	  subjects: ['Programming', 'Networking', 'Hardware Maintenance', 'Operating Systems', 'Databases']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Bachelor degree of Computer Science',
 		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		location: 'Poland',
+		logo: Assets.UJ,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'Jagiellonian University',
+		period: { from: new Date(2021, 9, 1), to: new Date(2024, 9, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'dummy-education-item',
+		subjects: ['Algebra', 'Computer Organization and Architecture', 'Programming', 'Logic and Set Theory', 'Mathematical Analysis', 'Programming Methods', 'Operating Systems', 'Algorithms and Data Structures', 'Discrete Mathematics', 'Databases', 'Software Engineering', 'Probability and Statistics', 'Computer Networks', 'Formal Languages and Automata', 'Numerical Methods', 'Functional Programming', 'Android Programming', 'Design Patterns', 'C# Programming', 'Cognitive Systems', 'Cognitive Science', 'Web Programming', 'Fundamentals of AI', 'English',]
 	}
 ];
 

@@ -4,19 +4,19 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
-		slug: 'open-sourcer',
+		slug: 'tutor',
 		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
+		description: 'Teaching mathematics to students',
 		contract: ContractType.SelfEmployed,
 		type: 'Software Development',
 		location: 'Home',
 		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
-		color: 'red',
+		skills: getSkills(),
+		name: 'Math Tutor',
+		color: 'green',
 		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome tools for developers.'
+		logo: Assets.Math,
+		shortDescription: 'Teaching mathematics to students'
 	},
 	{
 		slug: 'software-freelance',
@@ -26,28 +26,13 @@ export const items: Array<Experience> = [
 		type: 'Software Development',
 		location: 'Home',
 		period: { from: new Date() },
-		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
+		skills: getSkills('python', 'kivy'),
 		name: 'Freelancer',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Freelance,
 		shortDescription: 'Creating awesome applications for customers.'
 	},
-	{
-		slug: 'software-freelance-junior',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date(2022, 0, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
-		color: 'green',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
-	}
 ];
 
 export const title = 'Experience';

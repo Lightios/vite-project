@@ -13,6 +13,7 @@ const Assets = {
 	C: a('c.svg'),
 	Cpp: a('cpp.svg'),
 	Celery: a('celery.svg'),
+	Compose: a('jetpack-compose.png'),
 	Django: a('django.svg'),
 	FastApi: a('fastapi'),
 	Flask: a('flask.svg'),
@@ -35,6 +36,7 @@ const Assets = {
 	ReactJs: a('react.svg'),
 	Dart: a('dart.png'),
 	Kotlin: a('kotlin.png'),
+	KivyMD: a('kivymd.png'),
 	Python: a('python.png'),
 	NodeJs: a('node.png'),
 	Deno: a('deno.png', 'deno-dark.png'),
@@ -70,7 +72,20 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+
+	Polish: a('pl.svg'),
+	English: a('en.png'),
+	Demiurg: a("demiurg.png"),
+	MasterSystem: a("master-system.png"),
+	ValorantLineups: a("valorant-lineups.png"),
+	DayMath: a("daymath.png"),
+	Latex: a("latex-black.png", "latex-white.png"), // ,
+	ZSZ: a("zsz.png"),
+	UJ: a("uj.png"),
+	Math: a("math.png"),
+	Freelance: a("freelance.png"),
+	Recommendation: a("recommendation.png"),
 };
 
 export default Assets;

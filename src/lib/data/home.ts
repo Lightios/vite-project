@@ -8,22 +8,15 @@ export const name = 'Michał';
 export const lastName = 'Cyran';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'An IT professional with a Bachelor\'s degree in Computer Science from Jagiellonian University and a background from a technical high school in IT. I have experience as a mathematics tutor, where I honed my communication and problem-solving skills. I am eager to apply my knowledge and enthusiasm in a dynamic IT environment, contributing to innovative projects and solutions.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
-	},
+	{ platform: Platform.GitHub, link: 'https://github.com/Lightios/' },
+
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'michalcyran77777@gmail.com'
 	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('python', 'kotlin', 'c#', 'kivy', 'compose');
