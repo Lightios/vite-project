@@ -86,6 +86,9 @@ const Assets = {
 	Math: a("math.png"),
 	Freelance: a("freelance.png"),
 	Recommendation: a("recommendation.png"),
+	Pillow: a("pillow.png"),
+	FPDF2: a("fpdf2.png"),
+	Manim: a("manim.png"),
 };
 
 export default Assets;

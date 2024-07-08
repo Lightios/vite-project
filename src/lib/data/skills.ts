@@ -63,6 +63,15 @@ export const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
+		slug: 'latex',
+		color: 'cyan',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		logo: Assets.Latex,
+		name: 'LaTeX',
+		category: 'markup-style'
+	}),
+	defineSkill({
 		slug: 'html',
 		color: 'orange',
 		description:
@@ -72,23 +81,14 @@ export const items = [
 		category: 'markup-style'
 	}),
 	defineSkill({
-		slug: 'latex',
-		color: 'orange',
+		slug: 'css',
+		color: 'blue',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Latex,
-		name: 'LaTeX',
+		logo: Assets.CSS,
+		name: 'CSS',
 		category: 'markup-style'
 	}),
-	// defineSkill({
-	// 	slug: '',
-	// 	color: 'pink',
-	// 	description:
-	// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-	// 	logo: Assets.Sass,
-	// 	name: 'Sass',
-	// 	category: 'markup-style'
-	// }),
 	defineSkill({
 		slug: 'kivy',
 		color: 'cyan',
@@ -96,19 +96,43 @@ export const items = [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
 		logo: Assets.KivyMD,
 		name: 'KivyMD',
-		category: 'library'
+		category: 'framework'
 	}),
 	defineSkill({
 		slug: 'compose',
-		color: 'orange',
+		color: 'green',
 		description: svelte,
 		logo: Assets.Compose,
 		name: 'Jetpack Compose',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'manim',
+		color: 'green',
+		description: svelte,
+		logo: Assets.Manim,
+		name: 'Manim',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'pillow',
+		color: 'green',
+		description: svelte,
+		logo: Assets.Pillow,
+		name: 'Pillow',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'fpdf2',
+		color: 'green',
+		description: svelte,
+		logo: Assets.FPDF2,
+		name: 'FPDF2',
 		category: 'library'
 	}),
 	defineSkill({
 		slug: 'pl',
-		color: 'blue',
+		color: 'red',
 		description: '',
 		logo: Assets.Polish,
 		name: 'Polish',
