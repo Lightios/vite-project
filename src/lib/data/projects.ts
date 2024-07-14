@@ -19,6 +19,7 @@ export const items: Array<Project> = [
 		},
 		skills: getSkills('python', 'kivy'),
 		type: 'Desktop Application',
+		category: { slug: 'software', name: 'Software' }
 	},
 	{
 		slug: 'vl',
@@ -36,6 +37,26 @@ export const items: Array<Project> = [
 		},
 		skills: getSkills('python', 'kivy', 'kotlin', 'compose'),
 		type: 'Mobile Application',
+
+		category: { slug: 'software', name: 'Software' },
+		screenshots: [
+			{
+				label: 'Lineup selection',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/valorant_lineups/1.png?raw=true'
+			},
+			{
+				label: 'Lineup description',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/valorant_lineups/2.png?raw=true'
+			},
+			{
+				label: 'Map selection',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/valorant_lineups/3.png?raw=true'
+			},
+			{
+				label: 'Agent selection',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/valorant_lineups/4.png?raw=true'
+			}
+		]
 	},
 	{
 		slug: 'demiurg',
@@ -53,6 +74,37 @@ export const items: Array<Project> = [
 		},
 		skills: getSkills('python', 'kivy'),
 		type: 'Desktop Application',
+		category: { slug: 'software', name: 'Software' },
+		screenshots: [
+			{
+				label: 'Project selection',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/demiurg/1.png?raw=true'
+			},
+			{
+				label: 'Creator map grid',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/demiurg/2.png?raw=true'
+			},
+			{
+				label: 'Location edition',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/demiurg/3.png?raw=true'
+			},
+			{
+				label: 'Quest making',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/demiurg/4.png?raw=true'
+			},
+			{
+				label: 'Game start',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/demiurg/5.png?raw=true'
+			},
+			{
+				label: 'Game',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/demiurg/6.png?raw=true'
+			},
+			{
+				label: 'End of game',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/demiurg/7.png?raw=true'
+			},
+		]
 	},
 	{
 		slug: 'daymath',
@@ -69,6 +121,35 @@ export const items: Array<Project> = [
 		},
 		skills: getSkills('kotlin', 'compose', 'latex', 'python', 'manim'),
 		type: 'Mobile Application',
+		category: { slug: 'software', name: 'Software' },
+
+		screenshots: [
+			{
+				label: 'App start',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/daymath/1.png?raw=true'
+			},
+			{
+				label: 'Test parameters',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/daymath/2.png?raw=true'
+			},
+
+			{
+				label: 'Question',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/daymath/6.png?raw=true'
+			},
+			{
+				label: 'Hint',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/daymath/5.png?raw=true'
+			},
+			{
+				label: 'PDF',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/daymath/3.png?raw=true'
+			},
+			{
+				label: 'Animation',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/daymath/4.png?raw=true'
+			},
+		]
 	},
 	{
 		slug: 'movie-ai',
@@ -86,32 +167,7 @@ export const items: Array<Project> = [
 		},
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
 		type: 'Desktop application',
-		// screenshots: [
-		// 	{
-		// 		label: 'screen 1',
-		// 		src: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-		// 	},
-		// 	{
-		// 		label: '2',
-		// 		src: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-		// 	},
-		// 	{
-		// 		label: '3',
-		// 		src: 'https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-		// 	},
-		// 	{
-		// 		label: '4',
-		// 		src: 'https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-		// 	},
-		// 	{
-		// 		label: '5',
-		// 		src: 'https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-		// 	},
-		// 	{
-		// 		label: '6',
-		// 		src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-		// 	}
-		// ]
+		category: { slug: 'softwdsadare', name: 'Sofasdaare' }
 	}
 ];
 
