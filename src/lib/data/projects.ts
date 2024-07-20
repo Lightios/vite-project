@@ -5,7 +5,7 @@ import type { Project } from '../types';
 export const items: Array<Project> = [
 	{
 		slug: 'master-system',
-		color: '#5e95e3',
+		color: '#e68510',
 		description:
 			'This tournament management application was developed on commission to facilitate competitive match play according to a client-specific algorithm. The app provides a user-friendly interface for entering match results, automatically pairs teams for the next round based on the algorithm, calculates points, and generates comprehensive PDF summaries of the tournament\'s progress. Additionally, it creates graphs to visually represent the algorithm\'s logic and outcomes. The application is translated into four languages using Python\'s gettext module, ensuring accessibility for a diverse user base. This project showcases my ability to deliver tailored, multilingual software solutions that meet specific client requirements and enhance the management of complex tournament structures.\n\n Owner contact information in included on a screenshot]',
 		shortDescription:
@@ -49,7 +49,7 @@ export const items: Array<Project> = [
 	},
 	{
 		slug: 'vl',
-		color: '#5e95e3',
+		color: '#2de80c',
 		description:
 			'Valorant Lineups is a comprehensive mobile application tailored for Valorant players to enhance their in-game strategies. The app offers a vast collection of lineups, enabling players to execute advanced techniques without the need for extensive memorization. By providing real-time guidance and detailed instructions, Valorant Lineups streamlines the learning process and empowers players to perform at their best, improving both individual and team performance.',
 		shortDescription:
@@ -86,7 +86,7 @@ export const items: Array<Project> = [
 	},
 	{
 		slug: 'demiurg',
-		color: '#5e95e3',
+		color: '#0eaae3',
 		shortDescription:
 			'Text-based game creator and interpreter, developed in a team, enabling users to design and play complex interactive narratives.',
 		description:
@@ -179,7 +179,7 @@ export const items: Array<Project> = [
 	},
 	{
 		slug: 'movie-ai',
-		color: '#ff3e00',
+		color: '#a818b8',
 		shortDescription:
 			'Desktop app recommending movies based on user ratings, developed for a course on AI fundamentals with a colleague.',
 		description:
