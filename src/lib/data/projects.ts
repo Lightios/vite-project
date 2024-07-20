@@ -7,9 +7,9 @@ export const items: Array<Project> = [
 		slug: 'master-system',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'This tournament management application was developed on commission to facilitate competitive match play according to a client-specific algorithm. The app provides a user-friendly interface for entering match results, automatically pairs teams for the next round based on the algorithm, calculates points, and generates comprehensive PDF summaries of the tournament\'s progress. Additionally, it creates graphs to visually represent the algorithm\'s logic and outcomes. The application is translated into four languages using Python\'s gettext module, ensuring accessibility for a diverse user base. This project showcases my ability to deliver tailored, multilingual software solutions that meet specific client requirements and enhance the management of complex tournament structures.\n\n Owner contact information in included on a screenshot]',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Tournament management app with custom algorithm, match results, team pairing, points calculation, PDF summaries, and multi-language support using Python gettext.',
 		links: [], // { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }
 		logo: Assets.MasterSystem,
 		name: 'Multi K.O. Tournament System',
@@ -17,9 +17,35 @@ export const items: Array<Project> = [
 			from: new Date(2021, 10, 1),
 			to: new Date()
 		},
-		skills: getSkills('python', 'kivy'),
+		skills: getSkills('python', 'kivy', 'pillow', 'fpdf2'),
 		type: 'Desktop Application',
-		category: { slug: 'software', name: 'Software' }
+		category: { slug: 'software', name: 'Software' },
+		screenshots: [
+			{
+				label: 'Main screen',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/master_system/1.png?raw=true'
+			},
+			{
+				label: 'Contact',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/master_system/2.png?raw=true'
+			},
+			{
+				label: 'Tournament screen - 8 teams version',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/master_system/3.png?raw=true'
+			},
+			{
+				label: 'Tournament screen - 16 teams version',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/master_system/4.png?raw=true'
+			},
+			{
+				label: 'Graph zoom',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/master_system/5.png?raw=true'
+			},
+			{
+				label: 'PDF preview',
+				src: 'https://github.com/Lightios/Lightios.github.io/blob/main/static/screenshots/master_system/6.png?raw=true'
+			},
+		]
 	},
 	{
 		slug: 'vl',
