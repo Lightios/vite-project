@@ -35,9 +35,14 @@
 		<p>
 
   </p>
-		<MainTitle classes="md:text-left ">{name} {lastName},</MainTitle>
+		<MainTitle classes="md:text-left ">{name} {lastName}</MainTitle>
 		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
 			{$t("homepage.description")}
+		</p>
+		<p>
+			<a href="https://lightios.github.io/TutorWebsite/">
+				{$t("homepage.tutor_website")}
+			</a>
 		</p>
 		<div class="row justify-center md:justify-start p-y-15px p-x-0px gap-2">
 			{#each links as link}

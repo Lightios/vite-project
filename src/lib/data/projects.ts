@@ -332,6 +332,22 @@ export const items: Array<Project> = [
 		type: 'Discord integration',
 		category: 'Projects for practice',
 	},
+	{
+		slug: 'crypto-tracker',
+		color: '#0000f9',
+		shortDescription: 'projects.crypto-tracker.shortDescription',
+		description: 'projects.crypto-tracker.description',
+		links: [{ to: 'https://github.com/Lightios/DiscordBot-TicTacToeCog', label: 'GitHub' }],
+		logo: Assets.TicTacToe,
+		name: 'Crypto Tracker',
+		period: {
+			from: new Date(2024, 11, 8),
+			to: new Date(2024, 11, 25)
+		},
+		skills: getSkills('kotlin', 'compose'),
+		type: 'Mobile application',
+		category: 'Projects for practice',
+	},
 
 ];
 

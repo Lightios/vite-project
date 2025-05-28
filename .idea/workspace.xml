@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="04eaec71-3901-4f43-bdc2-19fd44c3378d" name="Changes" comment="Data update" />
+    <list default="true" id="04eaec71-3901-4f43-bdc2-19fd44c3378d" name="Changes" comment="new projects">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/translations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/translations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/scheduler/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshots/scheduler/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/scheduler/2.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,42 +20,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Lightios"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Lightios&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Lightios/Lightios.github.io.git",
-    "accountId": "5cbcbca0-3617-4445-85a4-551920bfb532"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Lightios/Lightios.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;e0abbc99-9864-473d-9f85-d0fbbe112dae&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2isxpANHR4IqoGmJNu7Ng0j3p9e" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\nukin\\PycharmProjects\\Lightios.github.io\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -58,6 +70,24 @@
       <option name="presentableId" value="Default" />
       <updated>1720293269596</updated>
       <workItem from="1720293271639" duration="291000" />
+      <workItem from="1731238871020" duration="3599000" />
+      <workItem from="1731255678488" duration="9574000" />
+      <workItem from="1731269553100" duration="975000" />
+      <workItem from="1731318704790" duration="2129000" />
+      <workItem from="1731343707207" duration="672000" />
+      <workItem from="1731344472206" duration="15000" />
+      <workItem from="1731345076724" duration="290000" />
+      <workItem from="1731345610755" duration="1503000" />
+      <workItem from="1731422689128" duration="486000" />
+      <workItem from="1731426901214" duration="330000" />
+      <workItem from="1731494113186" duration="5000" />
+      <workItem from="1731587450557" duration="3782000" />
+      <workItem from="1731688286969" duration="34000" />
+      <workItem from="1732110788731" duration="362000" />
+      <workItem from="1732129224464" duration="2000" />
+      <workItem from="1740819283787" duration="1674000" />
+      <workItem from="1740828358068" duration="602000" />
+      <workItem from="1748462671861" duration="985000" />
     </task>
     <task id="LOCAL-00001" summary="Data update">
       <option name="closed" value="true" />
@@ -75,7 +105,63 @@
       <option name="project" value="LOCAL" />
       <updated>1720293561093</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Polish added">
+      <option name="closed" value="true" />
+      <created>1731268435433</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731268435433</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Search translation">
+      <option name="closed" value="true" />
+      <created>1731269006569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731269006569</updated>
+    </task>
+    <task id="LOCAL-00005" summary="generator tabliczek screenshots">
+      <option name="closed" value="true" />
+      <created>1731344361960</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731344361960</updated>
+    </task>
+    <task id="LOCAL-00006" summary="scheduler screenshots">
+      <option name="closed" value="true" />
+      <created>1731346682878</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731346682878</updated>
+    </task>
+    <task id="LOCAL-00007" summary="binary_clock screenshots">
+      <option name="closed" value="true" />
+      <created>1731422907069</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731422907069</updated>
+    </task>
+    <task id="LOCAL-00008" summary="scheduler logo">
+      <option name="closed" value="true" />
+      <created>1731422983654</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731422983654</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new projects">
+      <option name="closed" value="true" />
+      <created>1731591973337</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731591973337</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +169,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Data update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data update" />
+    <MESSAGE value="Polish added" />
+    <MESSAGE value="Search translation" />
+    <MESSAGE value="generator tabliczek screenshots" />
+    <MESSAGE value="scheduler screenshots" />
+    <MESSAGE value="binary_clock screenshots" />
+    <MESSAGE value="scheduler logo" />
+    <MESSAGE value="new projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="new projects" />
   </component>
 </project>

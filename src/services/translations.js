@@ -2,6 +2,7 @@ export default {
   en: {
     "homepage.title": "Hello, World!",
     "homepage.description": "I'm passionate about tech and focused on Android app development.",
+    "homepage.tutor_website": "My tutoring website",
 
     "Skills": "Skills",
     "Projects": "Projects",
@@ -61,6 +62,9 @@ export default {
 
     'projects.tic-tac-toe.shortDescription': 'Simple Tic-Tac-Toe game that can be played with a friend on Discord',
     'projects.tic-tac-toe.description': 'Simple Tic-Tac-Toe game that can be played with a friend on Discord',
+
+    'projects.crypto-tracker.shortDescription': 'App tracking cryptocurrency prices',
+    'projects.crypto-tracker.description': 'App tracking cryptocurrency prices. It allows adding cryptocurrencies to track, and displays their current prices along with a chart of changes over the last 24 hours.',
 
     'experience.tutor.name': 'Math Tutor',
     'experience.tutor.description': 'Teaching mathematics to students',
@@ -142,6 +146,7 @@ export default {
   pl: {
     "homepage.title": "¡Hola Mundo!",
     "homepage.description": "Pasjonuję się informatyką i rozwijam się w tworzeniu aplikacji na Androida",
+    "homepage.tutor_website": "Moja strona korepetycji",
 
     "NoResults": "Nie udało się niczego znaleźć...",
     "SearchPlaceholder": "Wyszukaj...",
@@ -201,6 +206,9 @@ export default {
 
     'projects.tic-tac-toe.shortDescription': 'Prosta gra w kółko i krzyżyk, którą można zagrać ze znajomym na Discordzie',
     'projects.tic-tac-toe.description': 'Prosta gra w kółko i krzyżyk, którą można zagrać ze znajomym na Discordzie',
+
+    'projects.crypto-tracker.shortDescription': 'Aplikacja śledząca kursy kryptowalut',
+    'projects.crypto-tracker.description': 'Aplikacja śledząca kursy kryptowalut. Umożliwia dodawanie kryptowalut do śledzenia, a także wyświetla ich aktualne kursy wraz z wykresem zmian w ciągu ostatnich 24 godzin.',
 
     'experience.tutor.name': 'Korepetytor matematyki',
     'experience.tutor.description': 'Nauczanie matematyki',
